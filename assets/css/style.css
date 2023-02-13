@@ -10,6 +10,9 @@ margin: 0 auto;
 .flex{
     display: flex;
 }
+.wrap{
+    flex-wrap: wrap;
+}
 
 /* header start */
 header{
@@ -532,4 +535,101 @@ border-radius: 5px;
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
+}
+
+
+.project_left_box{
+ margin-top: 50px;
+ width: 30%;
+ padding: 0 10px;
+}
+
+.project_text{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 26.3424px;
+line-height: 31px;
+color: #292E3D;
+}
+
+.project_link {
+    margin-top: 50px;
+}
+.project_link li{
+   margin-bottom: 20px;
+}
+
+.all{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 17.5616px;
+line-height: 21px;
+color: #2947A9;
+} 
+.project_link li a{
+    color: #858EAD;
+}
+
+
+
+.project_link li a:hover{
+    color: black;
+}
+
+
+
+
+
+.project_right_box{
+    width: 70%;
+}
+
+.card{
+    width: 280px;
+    height: 280px;
+    margin-bottom: 30px;
+}
+
+.project_card_box{
+    margin-top: 100px;
+    justify-content: space-between;
+    padding:  0 50px;
+}
+
+.card_text{
+    background-color: #2947A9;
+    padding: 10px;
+}
+
+.card_text h3{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14.6346px;
+line-height: 17px;
+color: #FFFFFF;
+margin-bottom: 5px;
+
+}
+
+.card_text p{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13.1712px;
+line-height: 15px;
+color: #FFFFFF;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+
+.form{
+    margin: 0 auto;
+    background-color: red;
 }
