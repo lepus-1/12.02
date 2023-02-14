@@ -232,30 +232,36 @@
             </div>
         </div>
     </section>   
-    <section>
+    <section class="form_section">
         <div class="container">
-            <p>What can us do for you?</p>
-            <p>We are ready to work on a project of any complexity, whether it’s commercial or residential.</p>
-            <div class="form">
+            <p class="form_title">What can us do for you?</p>
+            <p class="form_text">We are ready to work on a project of any complexity, whether it’s commercial or residential.</p>
+          
 
-           
-            <form action="">
-                <div>
-                    <input type="text" placeholder="Your Name*" name="name" id="name">
-                    <input type="mail" placeholder="Email*" name="email" id="email">
-                </div>
-                <div>
-                    <input type="text" placeholder="Reason for Contacting*" name="name" id="name">
-                    <input type="number" placeholder="Phone" name="phone" id="phone">
-                </div>
-                
-                    <textarea id="message" name="" rows="4">                    
-                
-                
-
-            </form>
-          </div>
+            <div class="form_box">
+                <form action="">
+                    <div class="input_box">
+                        <input type="text" placeholder="Your Name*" name="name" id="name" class="input">
+                        <input type="mail" placeholder="Email*" name="email" id="email" class="input">
+                    </div>
+                    <div class="input_box">
+                        <input type="text" placeholder="Reason for Contacting*" name="name" id="name" class="input">
+                        <input type="number" placeholder="Phone" name="phone" id="phone" class="input">
+                    </div>
+                    <div class="input_box  textarea_box">
+                     <input type="textarea" class="textarea" placeholder="Message" id="message"> 
+                     <label for="message"><span class="fifqi">*</span> indicates a required field</label>
+                    </div>  
+                    <div class="btn_box">
+                        <button class="submit">Submit</button>   
+                    </div>
+                                                     
+                 </form> 
+            </div>                 
+            
         </div>
+         
+        
     </section> 
 
 
