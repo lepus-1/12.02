@@ -62,4 +62,16 @@
 .about_info{
     margin: 0 auto;
 }
+
+
+
+.footer_box{
+    flex-direction: column;
+}
+.right_footer_box{
+    margin: 0 auto;
+}
+.left_footer_box{
+    margin: 0 auto;
+}
 }
