@@ -718,3 +718,97 @@ margin: 20px 0;
 .form_section{
     margin: 50px 0 100px 0;
 }
+
+.left_footer_box{
+    max-width: 60%;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.right_footer_box{
+    max-width: 40%;
+    width: 100%;
+}
+
+.left_footer_box p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.6346px;
+    line-height: 17px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.left_footer_box span{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 17px;
+font-variant: small-caps;
+color: #2947A9;
+margin-left: 15px;
+display: inline-block;
+margin-right: 15px;
+}
+
+
+.autor{
+    background-color: #2947A9;
+    color: #FFFFFF;
+    font-size: 11px;
+    padding: 20px 0;
+
+}
+.footer_box{
+    margin:60px 0;
+    
+}
+
+
+.right_footer_box p {
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14.6346px;
+line-height: 17px;
+font-variant: small-caps;
+color: #2947A9;
+margin-bottom: 20px;
+
+}
+
+
+.footer_input{
+    width: 200px;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid #C2C7D6;
+    margin-bottom: 20px;
+    height: 30px;
+}
+.footer_input:focus{
+    outline: none;
+}
+
+
+.subscribe_btn{
+padding: 5px 10px;
+width: 99.52px;
+height: 30px;
+
+/* Secondary */
+
+background: #F9995D;
+border-radius: 2.92693px;
+border: none;
+color: #FFFFFF;
+}
+
+.social_box{
+    margin-top: 20px;
+}
+footer{
+    border-top: 1px solid #C2C7D6;
+}
