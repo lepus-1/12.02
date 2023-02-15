@@ -59,4 +59,7 @@
 .burger{
     display: block;
 }
+.about_info{
+    margin: 0 auto;
+}
 }
