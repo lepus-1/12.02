@@ -55,5 +55,8 @@
     .client_1:before, .client_2::before, .client_3::before{
         content: "";
     }
-  
-
+  .nav{display: none;}
+.burger{
+    display: block;
+}
+}

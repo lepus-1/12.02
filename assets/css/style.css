@@ -41,6 +41,14 @@ header{
 .red{
     color: red !important;
 }
+.burger{
+    display: none;
+}
+.burger img{
+    width: 35px;
+    height: 35px;
+
+}
 
 /* header end */
 
@@ -317,6 +325,7 @@ line-height: 17px;
 
 .client_wrapper{
     flex-wrap: wrap;
+    padding-bottom:30px;
 }
   .client_right_box{
     max-width: 30%;
